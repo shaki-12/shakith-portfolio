@@ -32,11 +32,25 @@ export const SliderView = () => {
           key={project.id}
           className={`flex-[0_0_100%] h-full relative group ${bgColors[index % bgColors.length]} rounded-xl`}
         >
-          {/* Background pattern */}
-          <div className="absolute inset-0 opacity-5 rounded-xl" style={{
-            backgroundImage: `radial-gradient(circle at 25px 25px, white 2px, transparent 0)`,
-            backgroundSize: '50px 50px'
-          }} />
+          {/* Project Image */}
+<img
+  src={project.image}
+  alt={project.title}
+  className="absolute inset-0 w-full h-full object-cover"
+ />
+
+{/* Dark overlay for readability */}
+<div className="absolute inset-0 bg-black/55 rounded-xl" />
+
+{/* Background pattern */}
+<div
+  className="absolute inset-0 opacity-5 rounded-xl"
+  style={{
+    backgroundImage:
+      "radial-gradient(circle at 25px 25px, white 2px, transparent 0)",
+    backgroundSize: "50px 50px",
+  }}
+/>
 
           {/* Content */}
           <div className="absolute inset-0 flex flex-col justify-end p-8 rounded-xl">
