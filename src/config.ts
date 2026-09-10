@@ -4,8 +4,7 @@ export const config = {
     title: "Junior .NET Full Stack Developer",
     subtitle: "C# | ASP.NET Core | Angular | SQL Server | GenAI",
     bio: "Junior .NET Full Stack Developer with hands-on experience in ASP.NET Core, Angular, SQL Server, and Generative AI.",
-    avatar:
-      "https://ui-avatars.com/api/?name=Shakith+A&background=0a0a0a&color=fff&size=200",
+    avatar: "/photo.png",
     about:
       "Computer Science and Engineering graduate with hands-on experience in backend development, databases, frontend technologies, and Generative AI. Passionate about building practical full-stack software solutions.",
   },
@@ -23,6 +22,7 @@ export const config = {
       company: "Faith Infotech",
       role: "Full Stack .NET Developer Trainee",
       period: "Feb 2026 – Sep 2026",
+      location: "Technopark, Trivandrum",
       skills: [
         "ASP.NET Core Web API",
         "ASP.NET MVC",
@@ -34,12 +34,13 @@ export const config = {
         "REST APIs",
       ],
     },
-
+  
     {
       id: 2,
       company: "Pumo Technovation",
       role: "Java Intern",
       period: "Jul 2025 – Sep 2025",
+      location: "Chennai, Tamil Nadu",
       skills: [
         "Core Java",
         "OOP",
@@ -48,7 +49,7 @@ export const config = {
       ],
     },
   ],
-
+  
   education: [
     {
       id: 1,

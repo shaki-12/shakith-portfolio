@@ -42,7 +42,7 @@ const Footer = () => {
       {/* Attribution */}
       <div className="text-xs md:text-sm text-center md:text-left">
         <p>
-          <span className="opacity-60">© 2025 </span>
+          <span className="opacity-60">© 2026 </span>
           <a
             href={`https://github.com/${config.social.github}`}
             target="_blank"
